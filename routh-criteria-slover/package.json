@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "svelte": "^3.57.0",
+    "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "algebrite": "^1.4.0",
+    "math.js": "^1.1.46",
+    "mathjax-svelte": "^0.0.2",
+    "plotly.js-dist-min": "^2.22.0"
+  }
+}

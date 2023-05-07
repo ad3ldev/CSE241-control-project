@@ -1,0 +1,46 @@
+
+<body style="background-color:rgb(128, 105, 177);">
+  <!-- rgb(125, 128, 220); -->
+  <div class="toolbar">
+
+      <button class="button"  (click)="onMclick()" >ADD NODE</button>
+      <button class="button" (click)="onLclick()" >ADD LINE</button>
+      <button class="button" (click)="onCclick()" >ADD CURVED LINE</button>
+      
+      <button class="btnDelete" (click)="onDelete()" >DELETE</button>
+      <button class="btnDelete" (click)="onClear()">CLEAR ALL</button>
+      <button class="btn" (click)="onSolve()">SOLVE</button>
+      <input type="number" name="Gain" id="gainn" placeholder="Gain:" min="1">
+      <div class="sandL">
+        <button class="btnSaveLoad" (click)="onSave()"> Save</button>
+        <button class="btnSaveLoad" (click)="onLoad()">Load</button>
+      </div>
+      
+  </div>
+
+  <div class="screen">
+    <div id="container" (click)="clickScreen()"></div>
+  </div>
+
+  <div class="output">
+    <h3>Output</h3>
+    <p id="result">overall gain = ? </p>
+
+    <details open>
+        <summary>Forward Paths</summary>
+        <p id="forwardPaths"></p>
+    </details>
+    <details open>
+        <summary>Individual Loops</summary>
+        <p id="cycles"></p>
+    </details>
+    <details open>
+        <summary>Non Touching Loops</summary>
+        <p id="nonTouchingLoops"></p>
+    </details>
+    <details open>
+        <summary>Deltas</summary>
+        <p id="deltas"></p>
+    </details>
+  </div>
+</body>
