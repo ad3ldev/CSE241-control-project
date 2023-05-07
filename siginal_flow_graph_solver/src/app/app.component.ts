@@ -608,13 +608,5 @@ onSolve(){
   this.allListsEmpty()
 }
 
-onSave(){
- window.prompt("enter the ful path")
-
-}
-onLoad(){
-  window.prompt("enter the ful path")
-}
-
 
 }
