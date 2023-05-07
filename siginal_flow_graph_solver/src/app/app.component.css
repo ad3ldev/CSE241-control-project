@@ -37,9 +37,7 @@
     flex:1;
     display: flex;
     justify-content: space-around;
-    border: none;
-    
-  
+    border: none;  
 }
 
 
@@ -91,18 +89,9 @@
     background-color: #a568b0;
     border-radius: 15px;
     box-shadow: 0 8px #999; -webkit-transition-duration: 0.4s; /* Safari */
-
     transition-duration: 0.4s;
 }
-.sandL{
- vertical-align: middle;
- 
-}
-/* #share-privacy-selector label,
-#share-privacy-selector .btn-toolbar {
-  vertical-align: middle;
-  display: table-cell;
-} */
+
 .btn{
     /* background-color: #ab47bc; */
     margin: 5px;
@@ -133,22 +122,7 @@
     box-shadow: 0 8px #999; -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
-.btnSaveLoad{
-   height: 50px;
-   color:#fdfdfd;
-   margin: 5px;
-   border-radius:30px;
-   border: none;   
-   padding: 15px 25px;
-   text-align: center;
-   cursor: pointer;
-   outline: none;
-   background-color: #a568b0;
-   border-radius: 15px;
-   box-shadow: 0 8px #999; -webkit-transition-duration: 0.4s; /* Safari */
-   transition-duration: 0.4s;
 
-}
 .button:hover {background-color: #912da3}
 
 .button:active {
@@ -163,12 +137,16 @@
   box-shadow: 0 5px #666;
   transform: translateY(40px);
 }
+.btnDelete:active {
+  /* background-color: #3e8e41; */
+  box-shadow: 0 5px #666;
+  transform: translateY(40px);
+}
+
 
 .screen div{
     flex:1;
     display: flex;
     justify-content: space-around;
-    border: none;
-    
-  
+    border: none;  
 }
